@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -144,8 +143,9 @@ h6 {
   object-fit: cover;
   position: absolute;
   top: 10px;
-  
+
 }
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -539,8 +539,13 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 17px;
   color: #919191;
+}
+
+.row .col-lg-6 img {
+  position: absolute;
+  top: 900px;
 }
 
 /*--------------------------------------------------------------
@@ -549,11 +554,13 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
+  
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
+  text-align: justify;
 }
 
 .about .content ul li {
@@ -570,25 +577,32 @@ section {
   margin-bottom: 0;
 }
 
+.about .img-fluid {
+  top: 160px;
+}
+
 /*--------------------------------------------------------------
 # Reciclagem
 --------------------------------------------------------------*/
-.why-us {
+.reciclagem {
   padding: 0;
 }
 
+.reciclagem .row h4 {
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
 
+}
 
-.why-us .content-item {
+.reciclagem .content-item {
   padding: 40px;
-  border-left: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  margin: -1px;
+  text-align: justify;
 }
 
 
 @media (max-width: 768px) {
-  .why-us .content-item {
+  .reciclagem .content-item {
     padding: 40px 0;
   }
 }
@@ -950,7 +964,7 @@ section {
   gap: 0px;
   grid-auto-rows: minmax(100px, auto);
   width: 100%;
-  
+
 }
 
 .video-title {
@@ -975,7 +989,7 @@ section {
 /*--------------------------------------------------------------
 #Dashboard
 --------------------------------------------------------------*/
-.ajustes-p{
+.ajustes-p {
   font-size: 15px;
   font-weight: 600;
   text-align: center;
@@ -992,7 +1006,7 @@ section {
 
 @media(max-width: 768px) {
   .dashboard {
-      width: 90%;
+    width: 90%;
   }
 }
 
@@ -1007,7 +1021,7 @@ section {
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  
+
 }
 
 .contact .info i {
@@ -1069,6 +1083,7 @@ section {
   background: #5cb874;
   color: #fff;
 }
+
 /*
 .contact .php-email-form {
   width: 100%;
@@ -1237,12 +1252,12 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background:#5cb874;
+  background: #5cb874;
   color: black;
   font-size: 12px;
   text-align: center;
   padding: 30px 0;
-  
+
 }
 
 #footer h3 {
