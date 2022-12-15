@@ -18,7 +18,7 @@ fetch('https://backend-trabalho-faculdade.herokuapp.com/getVideos', {
                 <div class="one">
                 <div class="video-title">${video.titulo}</div>
                 <div class="video-wrapper">
-                  <iframe width="320" height="240" src="${video.link}"
+                  <iframe width="320" height="240" src="https://www.youtube.com/embed/${video.link}"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
